@@ -1,4 +1,5 @@
 # Typeracer Premium Practice Unlock
+![preview](https://github.com/chkg2a/typeracer-premium-practice-unlock/blob/main/images/th-128.png?raw=true)
 Lets you save ghost Races and run easy texts
 
 ## How to use
