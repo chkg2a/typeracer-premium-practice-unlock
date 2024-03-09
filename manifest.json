@@ -1,11 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Typeracer Premium Practice Unlock",
-  "description": "Base Level Extension",
+  "description": "Grants you to save Premium Races and Run EasyTexts on Practice mode",
   "version": "1.0",
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": "default_icon.png"
+  "icons": {
+    "16": "images/th-16.png",
+    "32": "images/th-32.png",
+    "48": "images/th-48.png",
+    "128": "images/th-128.png"
   },
-  "permissions": ["activeTab","storage"]
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"]
 }
