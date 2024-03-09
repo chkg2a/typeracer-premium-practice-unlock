@@ -1,0 +1,41 @@
+body,
+html {
+  background:linear-gradient(skyblue,lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-weight: 400;
+  font-size: 200%;
+  font-style: normal;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#userInput {
+  min-height: 1.3rem; 
+}
+
+#jsession-id-label {
+  font-size: 0.5rem; 
+  font-weight: bold;
+}
+
+div th {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+div button {
+  font-family: "Madimi One", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
