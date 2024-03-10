@@ -21,6 +21,19 @@ const headers = {
 
 const save_last_race_btn = document.querySelector("#save-last-race");
 const start_easytext_btn = document.querySelector("#start-easytexts");
+const save_btn = document.getElementById("save-btn");
+
+save_btn.addEventListener('click', () => {
+  const text = userInput.value.trim();
+  if (!text) {
+    alert("Please enter some text");
+    return;
+  }
+  chrome.storage.sync.set({ userText: text }, () => {
+    console.log("Text saved to storage");
+  })
+
+})
 
 start_easytext_btn.addEventListener("click", async () => {
   const jsessionid = document.getElementById("userInput").value;

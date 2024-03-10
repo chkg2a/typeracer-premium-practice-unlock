@@ -34,6 +34,10 @@ div th {
   margin-bottom: 10px;
 }
 
+#save-btn{
+ font-size: 0.8rem;
+}
+
 div button {
   font-family: "Madimi One", sans-serif;
   font-size: 1rem;
